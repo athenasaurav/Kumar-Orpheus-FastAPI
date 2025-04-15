@@ -367,3 +367,9 @@ For extended audio generation (books, long narrations), you may want to increase
 ## License
 
 This project is licensed under the Apache License 2.0 - see the LICENSE.txt file for details.
+
+---
+
+**Why did the Text-to-Speech server break up with the LLM?**
+
+...Because it felt like it was always putting words in its mouth! 😄
