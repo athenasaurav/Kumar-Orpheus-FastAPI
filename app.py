@@ -113,14 +113,17 @@ async def create_speech_api(request: SpeechRequest):
         # Generate speech with automatic batching for long texts
         start = time.time()
         
-        # Get the token generator - only pass the required parameters
-        token_gen = generate_tokens_from_api(
-            prompt=request.input,
-            voice=request.voice
-        )
+        # Convert synchronous generator to async
+        async def async_token_gen():
+            token_gen = generate_tokens_from_api(
+                prompt=request.input,
+                voice=request.voice
+            )
+            for token in token_gen:
+                yield token
         
         # Convert tokens to audio chunks and stream them
-        async for chunk in tokens_decoder(token_gen):
+        async for chunk in tokens_decoder(async_token_gen()):
             if chunk:
                 yield chunk
         
