@@ -45,13 +45,19 @@ ensure_env_file_exists()
 load_dotenv(override=True)
 
 from fastapi import FastAPI, Request, Form, HTTPException, Depends
-from fastapi.responses import HTMLResponse, FileResponse, JSONResponse
+from fastapi.responses import HTMLResponse, FileResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 import json
 
-from tts_engine import generate_speech_from_api, AVAILABLE_VOICES, DEFAULT_VOICE
+from tts_engine import (
+    generate_speech_from_api, 
+    generate_tokens_from_api,
+    tokens_decoder,
+    AVAILABLE_VOICES, 
+    DEFAULT_VOICE
+)
 
 # Create FastAPI app
 app = FastAPI(
@@ -95,39 +101,47 @@ async def create_speech_api(request: SpeechRequest):
     """
     Generate speech from text using the Orpheus TTS model.
     Compatible with OpenAI's /v1/audio/speech endpoint.
-    
-    For longer texts (>1000 characters), batched generation is used
-    to improve reliability and avoid truncation issues.
+    Streams audio chunks directly for lower latency.
     """
     if not request.input:
         raise HTTPException(status_code=400, detail="Missing input text")
     
-    # Generate unique filename
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_path = f"outputs/{request.voice}_{timestamp}.wav"
+    async def generate_audio_stream():
+        # Generate unique filename (in case we need to save later)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        
+        # Check if we should use batched generation
+        use_batching = len(request.input) > 1000
+        if use_batching:
+            print(f"Using batched generation for long text ({len(request.input)} characters)")
+        
+        # Generate speech with automatic batching for long texts
+        start = time.time()
+        
+        # Get the token generator
+        token_gen = generate_tokens_from_api(
+            prompt=request.input,
+            voice=request.voice,
+            use_batching=use_batching,
+            max_batch_chars=1000
+        )
+        
+        # Convert tokens to audio chunks and stream them
+        async for chunk in tokens_decoder(token_gen):
+            if chunk:
+                yield chunk
+        
+        end = time.time()
+        generation_time = round(end - start, 2)
+        print(f"Streaming completed in {generation_time}s")
     
-    # Check if we should use batched generation
-    use_batching = len(request.input) > 1000
-    if use_batching:
-        print(f"Using batched generation for long text ({len(request.input)} characters)")
-    
-    # Generate speech with automatic batching for long texts
-    start = time.time()
-    generate_speech_from_api(
-        prompt=request.input,
-        voice=request.voice,
-        output_file=output_path,
-        use_batching=use_batching,
-        max_batch_chars=1000  # Process in ~1000 character chunks (roughly 1 paragraph)
-    )
-    end = time.time()
-    generation_time = round(end - start, 2)
-    
-    # Return audio file
-    return FileResponse(
-        path=output_path,
+    return StreamingResponse(
+        generate_audio_stream(),
         media_type="audio/wav",
-        filename=f"{request.voice}_{timestamp}.wav"
+        headers={
+            "X-Content-Type-Options": "nosniff",
+            "Content-Disposition": f'attachment; filename="{request.voice}_stream.wav"'
+        }
     )
 
 @app.get("/v1/audio/voices")
