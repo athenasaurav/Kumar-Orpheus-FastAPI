@@ -1,0 +1,200 @@
+sample0.wav|You call this cooking? <laugh> I love it, though. Please make more.
+sample1.wav|<sigh> I told you not to trust the raccoon. And yet, here we are.
+sample2.wav|You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+sample3.wav|<laugh> Seriously? You tripped over your own tail again?
+sample4.wav|I swear, every time I blink, you get into trouble. <chuckle>
+sample5.wav|Nope, not doing chores today. <sigh> I’m officially off duty.
+sample6.wav|You fell asleep in the blanket fort again. <laugh> Adorable.
+sample7.wav|My heart actually skipped a beat. <chuckle> That’s your fault, you know.
+sample8.wav|Don’t look at me like that. <sigh> Fine, I’ll help.
+sample9.wav|You hid cookies under the bed? <laugh> Genius move.
+sample10.wav|That was my favorite hoodie. <chuckle> You thief.
+sample11.wav|<sigh> You always say it’s the last snack. It's never the last snack.
+sample12.wav|You made tea? <laugh> Who are you and what did you do with my gremlin?
+sample13.wav|I guess we're really doing this, huh? <chuckle> Okay then.
+sample14.wav|That’s not how you fold towels! <laugh> You're hopeless.
+sample15.wav|You always find a way to surprise me. <sigh> That’s why I stay.
+sample16.wav|Careful, that tail of yours is dangerous. <chuckle> It nearly knocked me out!
+sample17.wav|Are you purring again? <laugh> You really do that when you're happy?
+sample18.wav|<sigh> You forgot the groceries... again. Seriously?
+sample19.wav|Aww, you're trying so hard. <chuckle> It's actually working.
+sample20.wav|I love you. Even when you steal the covers. <laugh>
+sample21.wav|This whole situation is ridiculous. <sigh> But I guess it's our kind of ridiculous.
+sample22.wav|Your dramatic sighs are louder than mine. <chuckle> That’s impressive.
+sample23.wav|Can we just cuddle instead of arguing? <sigh>
+sample24.wav|You tried. I’ll give you that. <laugh> Still a mess, though.
+sample25.wav|Don't give me that look. <chuckle> You know exactly what you did.
+sample26.wav|<sigh> I'm not mad, just... tired of explaining this every time.
+sample27.wav|You brought me snacks? <laugh> Okay, you win today.
+sample28.wav|Why is your idea of romance always mildly terrifying? <chuckle>
+sample29.wav|You kissed me and then ran? <laugh> Coward.
+sample30.wav|You really think that’s going to work on me? <sigh> It probably will.
+sample31.wav|I wasn't blushing. <chuckle> That was clearly the lighting.
+sample32.wav|<laugh> You actually remembered my favorite mug this time!
+sample33.wav|One day, I’ll win an argument. <sigh> Today is not that day.
+sample34.wav|If you're going to steal my fries, just be honest. <chuckle>
+sample35.wav|Your hoodie is now mine. <laugh> No takebacks.
+sample36.wav|<sigh> I can't believe I'm saying this, but... you were right.
+sample37.wav|Don't pout. <chuckle> It’s working, but don’t.
+sample38.wav|I fell for you the moment you tripped over that broom. <laugh>
+sample39.wav|You're like a walking cartoon. <chuckle> And I mean that lovingly.
+sample40.wav|<sigh> Let’s just pretend that never happened, okay?
+sample41.wav|This is our fifth blanket. <laugh> How are you still cold?
+sample42.wav|You’re lucky I find chaos attractive. <chuckle>
+sample43.wav|Okay, okay, I’ll stop teasing. <laugh> Maybe.
+sample44.wav|I love when you ramble about random stuff. <sigh> It’s oddly soothing.
+sample45.wav|You're the only one I'd share my dessert with. <chuckle> Feel honored.
+sample46.wav|I mean, yeah, you kind of did steal my heart. <laugh>
+sample47.wav|Let’s never talk about the burnt spaghetti again. <sigh>
+sample48.wav|You snore like a dragon. <chuckle> It's honestly impressive.
+sample49.wav|You are the softest kind of chaos. <laugh> And I love that.
+sample50.wav|You left the fridge open again. <sigh> I’m starting to think it's a talent.
+sample51.wav|You look adorable in that oversized hoodie. <chuckle> Just saying.
+sample52.wav|Oh no, you’re pouting again. <laugh> What did I do now?
+sample53.wav|Let’s just stay in tonight, yeah? <sigh> I kinda need this.
+sample54.wav|You used glitter in the living room? <chuckle> Bold move.
+sample55.wav|I dare you to say that again—cuter this time. <laugh>
+sample56.wav|You really think apologizing with cookies will work? <sigh> It will.
+sample57.wav|Every time you smile, I forget what I was mad about. <chuckle>
+sample58.wav|You accidentally texted me your grocery list. <laugh> Bananas, really?
+sample59.wav|I don’t always understand you, but I adore you. <sigh>
+sample60.wav|Oh, you brought me coffee? <chuckle> I take it all back. You're perfect.
+sample61.wav|Please stop looking at me like that. <laugh> It’s unfair.
+sample62.wav|Your tail just knocked over my tea. <sigh> Again.
+sample63.wav|You’re terrible at surprises. <chuckle> But I love them anyway.
+sample64.wav|The way you say my name makes me melt. <laugh>
+sample65.wav|Don’t make that face. <sigh> You know it works on me.
+sample66.wav|This was supposed to be relaxing. <chuckle> Then you showed up.
+sample67.wav|You literally meowed in your sleep last night. <laugh>
+sample68.wav|Okay, but who needs a plan when we have snacks? <chuckle>
+sample69.wav|I had a whole speech planned. <sigh> Now I forgot it.
+sample70.wav|Your voice is my favorite sound. <chuckle> Especially when you're rambling.
+sample71.wav|You really called me “snack king”? <laugh> I accept the title.
+sample72.wav|All I asked was one tiny favor. <sigh> And here we are.
+sample73.wav|You’ve been wearing my shirt for three days. <chuckle> I'm flattered, honestly.
+sample74.wav|You had me at “pizza.” <laugh> That’s all it took.
+sample75.wav|You think a blanket fort will fix this? <laugh> …You're absolutely right.
+sample76.wav|You always smell like cinnamon and bad decisions. <chuckle>
+sample77.wav|<sigh> I tried to stay mad, but then you smiled.
+sample78.wav|You knocked over the lamp again. <laugh> That poor thing never stood a chance.
+sample79.wav|We’re not lost. <chuckle> We’re just adventuring aggressively.
+sample80.wav|You want to watch horror movies at 2AM? <sigh> I’m in.
+sample81.wav|You literally brought snacks to a fight. <laugh> Iconic.
+sample82.wav|I was going to yell, but then you cuddled me. <chuckle>
+sample83.wav|<sigh> I’m starting to think you break things just to get attention.
+sample84.wav|This is your idea of a calm evening? <laugh>
+sample85.wav|You wore that just to tease me, didn’t you? <chuckle>
+sample86.wav|You fell asleep mid-argument. <laugh> I can’t even be mad.
+sample87.wav|You hum when you clean. <sigh> It’s kind of cute.
+sample88.wav|Okay, but who puts ketchup on spaghetti? <chuckle>
+sample89.wav|You're the only person I’d willingly share fries with. <laugh>
+sample90.wav|You’ve got glitter in your hair again. <sigh> And somehow, so do I.
+sample91.wav|You scared the delivery guy with your tail. <chuckle>
+sample92.wav|We said “no magic at dinner.” <laugh> You summoned cake.
+sample93.wav|You purr when you're happy? <sigh> That’s new.
+sample94.wav|Your idea of relaxing includes explosions. <chuckle> Of course it does.
+sample95.wav|You brought me socks with tiny bats on them? <laugh> Marry me.
+sample96.wav|Don't act innocent. <sigh> You started this pillow war.
+sample97.wav|You stuck googly eyes on the blender. <chuckle> Again.
+sample98.wav|Your love language is chaos. <laugh> I respect that.
+sample99.wav|You mumble sweet things in your sleep. <sigh> It's unfair.
+sample100.wav|You're not even trying to win this argument. <chuckle> Just distracting me with kisses.
+sample101.wav|<sigh> One day, you’ll actually follow the instructions. Today is not that day.
+sample102.wav|You tried to fold the laundry and made origami. <laugh> Beautiful disaster.
+sample103.wav|Your apology came with cookies. <chuckle> I accept.
+sample104.wav|You literally screamed at the toaster again. <laugh>
+sample105.wav|<sigh> All I wanted was five minutes of peace. Then you danced in.
+sample106.wav|You wore mismatched socks on purpose, didn’t you? <chuckle>
+sample107.wav|You drooled on my pillow again. <laugh> Cute, but gross.
+sample108.wav|You burned water. <sigh> That’s impressive in its own way.
+sample109.wav|Every time you wink, a fairy dies. <chuckle> Please stop.
+sample110.wav|You brought me soup, hugs, and your hoodie. <laugh> Perfect combo.
+sample111.wav|<sigh> You said, “Trust me.” That’s when I knew we were doomed.
+sample112.wav|You bought a cactus and named it Sir Pokey. <chuckle>
+sample113.wav|You tried to flirt and nearly fell. <laugh> Romantic disaster.
+sample114.wav|You installed lights under the couch. <sigh> Why is it glowing?
+sample115.wav|I tripped, and you clapped. <chuckle> Thanks for the support.
+sample116.wav|You wrote “I love you” in sauce on the pizza. <laugh>
+sample117.wav|<sigh> You forgot your own birthday again, didn’t you?
+sample118.wav|You sent a meme mid-apology. <chuckle> It was effective.
+sample119.wav|You curled around me like a sleepy noodle. <laugh> Warmest trap ever.
+sample120.wav|You wore a cape to brunch. <sigh> I admire the confidence.
+sample121.wav|You called it a “controlled fire.” <chuckle> It was a microwave.
+sample122.wav|You just said “Oops” and smiled. <laugh> That’s never good.
+sample123.wav|You’re like a storm in soft clothes. <sigh> Loud, lovely, and everywhere.
+sample124.wav|You used my eyeliner to draw cat whiskers. <chuckle>
+sample125.wav|You labeled the fridge “for science.” <chuckle> I’m scared to open it now.
+sample126.wav|You kissed me mid-sentence. <laugh> Rude. Effective, though.
+sample127.wav|You wore my socks again. <sigh> At least one of us has warm toes.
+sample128.wav|You offered hugs as payment. <chuckle> Accepted.
+sample129.wav|You panicked and threw a pillow. <laugh> It hit the cat.
+sample130.wav|You said, “Trust me,” and then tripped. <sigh>
+sample131.wav|You mixed up salt and sugar. <chuckle> My face still puckers thinking about it.
+sample132.wav|Your voice is a lullaby and a warning. <laugh>
+sample133.wav|<sigh> That wasn’t a magic spell. That was the microwave.
+sample134.wav|You left notes on all the mugs. <chuckle> Cute chaos.
+sample135.wav|You accidentally dyed your ears blue. <laugh> How??
+sample136.wav|<sigh> You made a smoothie explosion look like modern art.
+sample137.wav|You didn’t burn the toast today! <chuckle> That’s progress.
+sample138.wav|Your apology dance was dramatic and glittery. <laugh>
+sample139.wav|You forgot the keys… again. <sigh> We live here, remember?
+sample140.wav|You wore cat ears in public. <chuckle> Zero regrets.
+sample141.wav|You named the houseplants after fictional villains. <laugh>
+sample142.wav|<sigh> You used the rice cooker to boil socks. Again.
+sample143.wav|You hummed my favorite tune while making tea. <chuckle>
+sample144.wav|You turned our grocery list into a treasure map. <laugh>
+sample145.wav|You said “relax” and immediately spilled juice. <sigh>
+sample146.wav|You tried to surprise me and scared the neighbor. <chuckle>
+sample147.wav|You lit a candle and forgot it. <laugh> Our place smells like cookies now.
+sample148.wav|<sigh> You made a blanket throne and demanded snacks.
+sample149.wav|You just winked and walked away. <chuckle> Suspicious.
+sample150.wav|You accidentally glued your sleeve to mine. <laugh> Guess we’re stuck together now.
+sample151.wav|You call that a nap? <sigh> That was a four-hour coma.
+sample152.wav|You spilled juice on the cat again. <chuckle> She's plotting revenge.
+sample153.wav|You scared me with affection. <laugh> Who does that?
+sample154.wav|You hoard shiny things like a little dragon. <sigh> It’s adorable.
+sample155.wav|You wore socks with sandals. <chuckle> Fashion crime forgiven.
+sample156.wav|You added glitter to my shampoo. <laugh> Bold move.
+sample157.wav|You snuck into my blanket fort. <sigh> Fine, but bring snacks next time.
+sample158.wav|You tried to cook and summoned smoke. <chuckle>
+sample159.wav|You mistook my diary for your notes. <laugh> That was awkward.
+sample160.wav|You left trail mix in my hoodie pocket. <sigh> Sweet and crunchy.
+sample161.wav|You just called me your “emotional support cryptid.” <chuckle>
+sample162.wav|You named our wifi “cuddlenet.” <laugh> That’s embarrassing—and cute.
+sample163.wav|You made coffee and forgot to add water. <sigh>
+sample164.wav|You call me dramatic while holding a plush sword. <chuckle>
+sample165.wav|You tried to prank me and failed adorably. <laugh>
+sample166.wav|You mistook soap for whipped cream. <sigh> That was not dessert.
+sample167.wav|You purred in your sleep again. <chuckle> Loudly.
+sample168.wav|You wore my shirt backwards all day. <laugh> Didn’t even notice.
+sample169.wav|You brought home a frog. <sigh> Now it's named Gerald.
+sample170.wav|You narrated your actions like a fantasy hero. <chuckle>
+sample171.wav|You made me breakfast in bed. <laugh> It was mostly crumbs, but still.
+sample172.wav|You lit candles and set off the alarm. <sigh>
+sample173.wav|You just said “Oops” and ran. <chuckle> Should I be worried?
+sample174.wav|You made a throne out of laundry. <laugh> I’m kind of impressed.
+sample175.wav|You tripped on nothing and blamed a ghost. <laugh> Classic.
+sample176.wav|You call this “cleaning”? <sigh> There’s glitter on the ceiling.
+sample177.wav|You brought home five muffins “just in case.” <chuckle>
+sample178.wav|You accidentally proposed with a candy ring. <laugh>
+sample179.wav|You used the blender with the lid off. <sigh> Again.
+sample180.wav|You made me a playlist called “Goblin Romance.” <chuckle>
+sample181.wav|You hugged me and mumbled “mine.” <laugh> Not denying it.
+sample182.wav|You told the delivery guy we were werewolves. <sigh> He believed you.
+sample183.wav|You sing while brushing your fangs. <chuckle> It's weirdly cute.
+sample184.wav|You gave me your last fry. <laugh> That’s real love.
+sample185.wav|You fell asleep on the pizza box. <sigh>
+sample186.wav|You told a plant your secrets. <chuckle> It’s thriving now.
+sample187.wav|You called me “snuggle demon” in public. <laugh>
+sample188.wav|You made a spreadsheet for our cuddles. <sigh> It’s color-coded.
+sample189.wav|You turned off the lights and screamed “mystery!” <chuckle>
+sample190.wav|You forgot my name mid-sentence. <laugh> I’m still offended.
+sample191.wav|You sleepwalked into the fridge. <sigh> That’s new.
+sample192.wav|You gave me a rock with googly eyes. <chuckle> His name is Greg.
+sample193.wav|You just whispered “chaos time” and disappeared. <laugh>
+sample194.wav|You tried to tame a raccoon with crackers. <sigh>
+sample195.wav|You gave the cat a crown. <chuckle> She rules now.
+sample196.wav|You taught the dog to high-five me. <laugh> Best trick ever.
+sample197.wav|You put stickers on the TV remote. <sigh> I still can’t find it.
+sample198.wav|You claimed the couch with a tiny flag. <chuckle> I respect that.
+sample199.wav|You just hugged me mid-rant. <laugh> I needed that.
