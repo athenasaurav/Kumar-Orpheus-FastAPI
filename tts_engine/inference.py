@@ -385,7 +385,7 @@ async def tokens_decoder(token_gen) -> Generator[bytes, None, None]:
                     
                     # Debug output to help diagnose issues
                     if count % 28 == 0:
-                        print(f"Processing buffer with {len(buffer_to_proc)} tokens, total collected: {len(buffer)}")
+                        pass
                     
                     # Process the tokens
                     audio_samples = convert_to_audio(buffer_to_proc, count)
@@ -557,10 +557,7 @@ def tokens_decoder_sync(syn_token_gen, output_file=None):
         total_time = time.time() - perf_monitor.start_time
         realtime_factor = duration / total_time if total_time > 0 else 0
         
-        print(f"Generated {len(audio_segments)} audio segments")
-        print(f"Generated {duration:.2f} seconds of audio in {total_time:.2f} seconds")
-        print(f"Realtime factor: {realtime_factor:.2f}x")
-        
+        # Removed detailed performance metrics
         if realtime_factor < 1.0:
             print("⚠️ Warning: Generation is slower than realtime")
         else:
