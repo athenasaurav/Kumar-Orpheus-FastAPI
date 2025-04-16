@@ -8,6 +8,11 @@ High-performance Text-to-Speech server with OpenAI-compatible API, 8 voices, emo
 
 ## Changelog
 
+**v1.2.1** (2025-04-13)
+- 🔧 Added `.env.local` support for proper container permissions
+- 🐳 Fixed Docker Compose issues with GPU access and UID/GID settings
+- 📝 Updated documentation for Docker setup on Ubuntu servers
+
 **v1.2.0** (2025-04-12)
 - ❤️ Added optional Docker Compose support with GPU-enabled `llama.cpp` server and Orpheus-FastAPI integration  
 - 🐳 Docker implementation contributed by [@richardr1126](https://github.com/richardr1126) – huge thanks for the clean setup and orchestration work!  
@@ -83,17 +88,54 @@ Orpheus-FastAPI/
 - CUDA-compatible GPU (recommended: RTX series for best performance)
 - Using docker compose or separate LLM inference server running the Orpheus model (e.g., LM Studio or llama.cpp server)
 
-### 🐳 Docker compose
+### 🐳 Docker Compose Setup
 
-The docker compose file orchestrates the Orpheus-FastAPI for audio and a llama.cpp inference server for the base model token generation. The GGUF model is downloaded with the model-init service.
-
+1. First, ensure you have NVIDIA drivers and nvidia-docker2 installed:
 ```bash
-cp .env.example .env # Nothing needs to be changed, but the file is required
-copy .env.example .env # For Windows CMD
+# Add NVIDIA package repositories
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID) 
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+
+# Install nvidia-docker2
+sudo apt-get update
+sudo apt-get install -y nvidia-docker2
+
+# Restart Docker daemon
+sudo systemctl restart docker
 ```
 
+2. Set up environment files:
 ```bash
-docker compose up --build
+# Copy the example environment files
+cp .env.example .env
+cp .env.local.example .env.local
+
+# Set proper UID and GID in .env.local
+echo "UID=$(id -u)" > .env.local
+echo "GID=$(id -g)" >> .env.local
+```
+
+3. Build and start the services:
+```bash
+# Build the images first
+docker-compose build
+
+# Start the services with proper environment
+docker-compose --env-file .env.local up -d
+```
+
+To view logs during first run (recommended):
+```bash
+docker-compose --env-file .env.local up
+```
+
+If you need to reset everything:
+```bash
+docker-compose down -v
+docker system prune -f
+docker-compose build --no-cache
+docker-compose --env-file .env.local up -d
 ```
 
 ### FastAPI Service Native Installation
@@ -324,6 +366,12 @@ Configure in docker compose, if using docker. Not using docker; create a `.env` 
 - `ORPHEUS_MODEL_NAME`: Model name for inference server
 
 The system now supports loading environment variables from a `.env` file in the project root, making it easier to configure without modifying system-wide environment settings. See `.env.example` for a template.
+
+For Docker Compose users, also set up `.env.local` with:
+- `UID`: Your user ID (get with `id -u`)
+- `GID`: Your group ID (get with `id -g`)
+
+These ensure proper permissions for container volumes.
 
 ![Server Configuration UI](https://lex-au.github.io/Orpheus-FastAPI/ServerConfig.png)
 
