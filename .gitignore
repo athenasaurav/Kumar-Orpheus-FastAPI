@@ -4,3 +4,5 @@ __pycache__/
 venv/
 models/
 *.gguf
+# Ignore audio output directory
+audio_outputs/
