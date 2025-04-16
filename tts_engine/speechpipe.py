@@ -213,17 +213,6 @@ async def tokens_decoder(token_gen):
             buffer.append(token)
             count += 1
 
-            # Log throughput periodically
-            current_time = time.time()
-            if current_time - last_log_time > 5.0:  # Every 5 seconds
-                elapsed = current_time - last_log_time
-                if elapsed > 0:
-                    recent_tokens = token_count
-                    tokens_per_sec = recent_tokens / elapsed
-                    print(f"Token processing rate: {tokens_per_sec:.1f} tokens/second")
-                last_log_time = current_time
-                token_count = 0
-            
             # Different processing logic based on whether first chunk has been processed
             if not first_chunk_processed:
                 # Process first chunk as soon as possible for minimal latency
@@ -326,9 +315,9 @@ def tokens_decoder_sync(syn_token_gen):
                     chunk_count += 1
                     
                     # Log performance stats periodically
-                    if chunk_count % 10 == 0:
-                        elapsed = time.time() - start_time
-                        print(f"Generated {chunk_count} chunks in {elapsed:.2f}s ({chunk_count/elapsed:.2f} chunks/sec)")
+                    # if chunk_count % 10 == 0:
+                    #     elapsed = time.time() - start_time
+                    #     print(f"Generated {chunk_count} chunks in {elapsed:.2f}s ({chunk_count/elapsed:.2f} chunks/sec)")
         except Exception as e:
             print(f"Error in audio producer: {e}")
             import traceback

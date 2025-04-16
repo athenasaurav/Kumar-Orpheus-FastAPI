@@ -159,16 +159,16 @@ class PerformanceMonitor:
         
     def add_tokens(self, count: int = 1) -> None:
         self.token_count += count
-        self._check_report()
+        # self._check_report() # Commented out for concurrency
         
     def add_audio_chunk(self) -> None:
         self.audio_chunks += 1
-        self._check_report()
+        # self._check_report() # Commented out for concurrency
         
     def _check_report(self) -> None:
         current_time = time.time()
         if current_time - self.last_report_time >= self.report_interval:
-            self.report()
+            # self.report() # Commented out for concurrency
             self.last_report_time = current_time
             
     def report(self) -> None:
@@ -358,12 +358,12 @@ async def tokens_decoder(token_gen) -> Generator[bytes, None, None]:
             token_count += 1
             
             # Log throughput periodically
-            current_time = time.time()
-            if current_time - last_log_time > 5.0:  # Every 5 seconds
-                elapsed = current_time - start_time
-                if elapsed > 0:
-                    print(f"Token processing rate: {token_count/elapsed:.1f} tokens/second")
-                last_log_time = current_time
+            # current_time = time.time()
+            # if current_time - last_log_time > 5.0:  # Every 5 seconds
+            #     elapsed = current_time - start_time
+            #     if elapsed > 0:
+            #         print(f"Token processing rate: {token_count/elapsed:.1f} tokens/second")
+            #     last_log_time = current_time
             
             # Different processing paths based on whether first chunk has been processed
             if not first_chunk_processed:
@@ -446,16 +446,16 @@ def tokens_decoder_sync(syn_token_gen, output_file=None):
                     chunk_count += 1
                     
                     # Log performance periodically
-                    current_time = time.time()
-                    if current_time - last_log_time >= 3.0:  # Every 3 seconds
-                        elapsed = current_time - last_log_time
-                        if elapsed > 0:
-                            recent_chunks = chunk_count
-                            chunks_per_sec = recent_chunks / elapsed
-                            print(f"Audio generation rate: {chunks_per_sec:.2f} chunks/second")
-                        last_log_time = current_time
-                        # Reset chunk counter for next interval
-                        chunk_count = 0
+                    # current_time = time.time()
+                    # if current_time - last_log_time > 5.0:  # Every 5 seconds
+                    #     elapsed = current_time - last_log_time
+                    #     if elapsed > 0:
+                    #         recent_chunks = chunk_count
+                    #         chunks_per_sec = recent_chunks / elapsed
+                    #         print(f"Audio generation rate: {chunks_per_sec:.2f} chunks/second")
+                    #     last_log_time = current_time
+                    #     # Reset chunk counter for next interval
+                    #     chunk_count = 0
         except Exception as e:
             print(f"Error in token processing: {str(e)}")
             import traceback
