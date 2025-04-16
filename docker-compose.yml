@@ -65,4 +65,3 @@ services:
         echo "Model file already exists"
       fi'
     restart: "no"
-    
