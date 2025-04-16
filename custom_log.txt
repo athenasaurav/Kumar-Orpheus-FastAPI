@@ -1,0 +1,485 @@
+2025-04-16 20:18:40 - Reading first 4 lines from 'data.txt'...
+2025-04-16 20:18:40 - Found 4 lines to process. Starting concurrent requests (limit: 4)...
+2025-04-16 20:18:40 - Req 01: Starting request for 'sample0.wav'...
+2025-04-16 20:18:40 - Req 02: Starting request for 'sample1.wav'...
+2025-04-16 20:18:40 - Req 03: Starting request for 'sample2.wav'...
+2025-04-16 20:18:40 - Req 04: Starting request for 'sample3.wav'...
+2025-04-16 20:18:40 - Req 01: Sent request (0.480s) for 'sample0.wav'. Status: 200
+2025-04-16 20:18:40 - Req 02: Sent request (0.483s) for 'sample1.wav'. Status: 200
+2025-04-16 20:18:40 - Req 04: Sent request (0.498s) for 'sample3.wav'. Status: 200
+2025-04-16 20:18:40 - Req 03: Sent request (0.501s) for 'sample2.wav'. Status: 200
+2025-04-16 20:18:41 - Req 01: First audio byte for 'sample0.wav' (latency: 0.324s)
+2025-04-16 20:18:41 - Req 01: Chunk   1 received:  4,096 bytes | Interval:  324.2ms | Rate:   12.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk   2 received:  2,834 bytes | Interval:   76.6ms | Rate:   36.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk   3 received:  4,096 bytes | Interval:   64.0ms | Rate:   62.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk   4 received:    156 bytes | Interval:    0.5ms | Rate:  302.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk   5 received:  2,832 bytes | Interval:   77.3ms | Rate:   35.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk   6 received:  2,370 bytes | Interval:   21.1ms | Rate:  109.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk   7 received:  2,834 bytes | Interval:   36.9ms | Rate:   74.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk   8 received:  4,096 bytes | Interval:   68.7ms | Rate:   58.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk   9 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  10 received:  4,096 bytes | Interval:   68.0ms | Rate:   58.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  11 received:    156 bytes | Interval:    1.0ms | Rate:  152.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  12 received:  3,784 bytes | Interval:   65.6ms | Rate:   56.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  13 received:  4,096 bytes | Interval:   68.5ms | Rate:   58.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  14 received:    156 bytes | Interval:    0.8ms | Rate:  191.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  15 received:  4,096 bytes | Interval:   66.5ms | Rate:   60.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  16 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  17 received:  4,096 bytes | Interval:   67.2ms | Rate:   59.6 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  18 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  19 received:    794 bytes | Interval:   36.6ms | Rate:   21.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  20 received:  2,834 bytes | Interval:   33.4ms | Rate:   82.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  21 received:  4,096 bytes | Interval:   65.3ms | Rate:   61.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  22 received:    156 bytes | Interval:    1.3ms | Rate:  120.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  23 received:  4,096 bytes | Interval:   65.8ms | Rate:   60.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  24 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  25 received:  4,096 bytes | Interval:   66.8ms | Rate:   59.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  26 received:    156 bytes | Interval:    1.1ms | Rate:  136.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:41 - Req 01: Chunk  27 received:    794 bytes | Interval:    5.5ms | Rate:  141.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  28 received:  2,834 bytes | Interval:   61.2ms | Rate:   45.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  29 received:  4,096 bytes | Interval:   67.4ms | Rate:   59.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  30 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  31 received:  4,096 bytes | Interval:   67.9ms | Rate:   58.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  32 received:    156 bytes | Interval:    1.1ms | Rate:  135.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  33 received:    950 bytes | Interval:   40.8ms | Rate:   22.7 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  34 received:  2,834 bytes | Interval:   26.3ms | Rate:  105.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  35 received:  4,096 bytes | Interval:   67.5ms | Rate:   59.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  36 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  37 received:  4,096 bytes | Interval:   68.4ms | Rate:   58.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  38 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  39 received:  4,096 bytes | Interval:   67.9ms | Rate:   58.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  40 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  41 received:    794 bytes | Interval:    9.0ms | Rate:   85.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  42 received:  2,834 bytes | Interval:   58.3ms | Rate:   47.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  43 received:  4,096 bytes | Interval:   68.1ms | Rate:   58.7 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  44 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  45 received:  4,096 bytes | Interval:   67.6ms | Rate:   59.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  46 received:    156 bytes | Interval:    1.0ms | Rate:  152.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  47 received:    950 bytes | Interval:   43.6ms | Rate:   21.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  48 received:  2,834 bytes | Interval:   24.4ms | Rate:  113.6 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  49 received:  4,096 bytes | Interval:   67.0ms | Rate:   59.7 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  50 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  51 received:  4,096 bytes | Interval:   67.7ms | Rate:   59.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  52 received:    156 bytes | Interval:    1.1ms | Rate:  139.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  53 received:  4,096 bytes | Interval:   66.3ms | Rate:   60.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  54 received:    156 bytes | Interval:    1.0ms | Rate:  152.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  55 received:    794 bytes | Interval:   11.7ms | Rate:   66.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:42 - Req 01: Chunk  56 received:  2,834 bytes | Interval:   55.5ms | Rate:   49.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  57 received:  4,096 bytes | Interval:   70.2ms | Rate:   57.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  58 received:    156 bytes | Interval:    0.5ms | Rate:  302.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  59 received:  4,096 bytes | Interval:   67.1ms | Rate:   59.6 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  60 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  61 received:    950 bytes | Interval:   46.3ms | Rate:   20.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  62 received:  2,834 bytes | Interval:   23.2ms | Rate:  119.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  63 received:  4,096 bytes | Interval:   68.8ms | Rate:   58.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  64 received:    156 bytes | Interval:    0.5ms | Rate:  295.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  65 received:  4,096 bytes | Interval:   67.3ms | Rate:   59.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  66 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  67 received:  4,096 bytes | Interval:   70.4ms | Rate:   56.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  68 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  69 received:    794 bytes | Interval:   31.6ms | Rate:   24.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  70 received:  2,834 bytes | Interval:   36.7ms | Rate:   75.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  71 received:  4,096 bytes | Interval:   69.4ms | Rate:   57.6 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  72 received:    156 bytes | Interval:    1.0ms | Rate:  150.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  73 received:  4,096 bytes | Interval:   68.1ms | Rate:   58.7 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  74 received:    156 bytes | Interval:    1.0ms | Rate:  151.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  75 received:    950 bytes | Interval:   62.0ms | Rate:   15.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  76 received:  2,834 bytes | Interval:    5.5ms | Rate:  499.6 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  77 received:  4,096 bytes | Interval:   69.1ms | Rate:   57.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  78 received:    156 bytes | Interval:    1.0ms | Rate:  150.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  79 received:  4,096 bytes | Interval:   68.0ms | Rate:   58.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  80 received:    156 bytes | Interval:    1.0ms | Rate:  151.6 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  81 received:  4,096 bytes | Interval:   70.7ms | Rate:   56.6 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  82 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  83 received:    794 bytes | Interval:   29.7ms | Rate:   26.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:43 - Req 01: Chunk  84 received:  2,834 bytes | Interval:   37.2ms | Rate:   74.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  85 received:  4,096 bytes | Interval:   70.1ms | Rate:   57.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  86 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  87 received:  4,096 bytes | Interval:   69.6ms | Rate:   57.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  88 received:    156 bytes | Interval:    0.4ms | Rate:  425.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  89 received:    950 bytes | Interval:   61.6ms | Rate:   15.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  90 received:  2,834 bytes | Interval:    6.5ms | Rate:  424.7 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  91 received:  4,096 bytes | Interval:   70.0ms | Rate:   57.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  92 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  93 received:  4,096 bytes | Interval:   67.3ms | Rate:   59.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  94 received:    156 bytes | Interval:    1.0ms | Rate:  151.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  95 received:  4,096 bytes | Interval:   71.0ms | Rate:   56.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  96 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  97 received:    794 bytes | Interval:   29.8ms | Rate:   26.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  98 received:  2,834 bytes | Interval:   39.4ms | Rate:   70.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk  99 received:  4,096 bytes | Interval:   68.9ms | Rate:   58.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 100 received:    156 bytes | Interval:    1.0ms | Rate:  152.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 101 received:  4,096 bytes | Interval:   68.0ms | Rate:   58.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 102 received:    156 bytes | Interval:    1.0ms | Rate:  151.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 103 received:    950 bytes | Interval:   59.7ms | Rate:   15.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 104 received:  2,834 bytes | Interval:    9.2ms | Rate:  299.6 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 105 received:  4,096 bytes | Interval:   72.2ms | Rate:   55.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 106 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 107 received:  4,096 bytes | Interval:   66.5ms | Rate:   60.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 108 received:    156 bytes | Interval:    1.0ms | Rate:  152.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 109 received:  4,096 bytes | Interval:   68.6ms | Rate:   58.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 110 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 111 received:    794 bytes | Interval:   30.7ms | Rate:   25.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 112 received:  2,834 bytes | Interval:   40.1ms | Rate:   69.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 113 received:  4,096 bytes | Interval:   70.6ms | Rate:   56.7 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:44 - Req 01: Chunk 114 received:    156 bytes | Interval:    1.0ms | Rate:  152.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 115 received:  4,096 bytes | Interval:   68.8ms | Rate:   58.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 116 received:    156 bytes | Interval:    1.0ms | Rate:  152.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 117 received:    950 bytes | Interval:   64.7ms | Rate:   14.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 118 received:  2,834 bytes | Interval:    4.0ms | Rate:  695.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 119 received:  4,096 bytes | Interval:   71.1ms | Rate:   56.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 120 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 121 received:  4,096 bytes | Interval:   70.1ms | Rate:   57.1 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 122 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 123 received:  4,096 bytes | Interval:   69.6ms | Rate:   57.5 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 124 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 125 received:    794 bytes | Interval:   33.4ms | Rate:   23.2 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 126 received:  2,834 bytes | Interval:   36.5ms | Rate:   75.8 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 127 received:  4,096 bytes | Interval:   75.1ms | Rate:   53.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 128 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 129 received:  4,096 bytes | Interval:   64.1ms | Rate:   62.4 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 130 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 131 received:    950 bytes | Interval:   62.9ms | Rate:   14.7 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 132 received:  2,834 bytes | Interval:  124.4ms | Rate:   22.3 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Chunk 133 received:  1,262 bytes | Interval:  156.5ms | Rate:    7.9 KB/s | FOR_TTS: You call this cooking? <laugh> I love it, though. Please make more.
+2025-04-16 20:18:45 - Req 01: Finished 'sample0.wav'. Total time: 5.691s, Chunks: 133, Bytes: 278,528, Avg Rate: 55.7 KB/s
+2025-04-16 20:18:46 - Req 02: First audio byte for 'sample1.wav' (latency: 5.357s)
+2025-04-16 20:18:46 - Req 02: Chunk   1 received:  4,096 bytes | Interval: 5356.8ms | Rate:    0.7 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk   2 received:  2,834 bytes | Interval:   64.3ms | Rate:   43.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk   3 received:  4,096 bytes | Interval:   66.0ms | Rate:   60.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk   4 received:    156 bytes | Interval:    1.0ms | Rate:  153.3 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk   5 received:  2,832 bytes | Interval:   73.7ms | Rate:   37.5 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk   6 received:  2,370 bytes | Interval:   36.3ms | Rate:   63.8 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk   7 received:  2,834 bytes | Interval:   27.6ms | Rate:  100.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk   8 received:  4,096 bytes | Interval:   66.6ms | Rate:   60.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk   9 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  10 received:  4,096 bytes | Interval:   71.4ms | Rate:   56.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  11 received:    156 bytes | Interval:    0.5ms | Rate:  303.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  12 received:  4,096 bytes | Interval:   62.5ms | Rate:   64.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  13 received:    156 bytes | Interval:    1.0ms | Rate:  152.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  14 received:    794 bytes | Interval:   11.9ms | Rate:   65.3 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  15 received:  2,834 bytes | Interval:   54.9ms | Rate:   50.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  16 received:  4,096 bytes | Interval:   66.3ms | Rate:   60.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  17 received:    156 bytes | Interval:    1.0ms | Rate:  152.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  18 received:  4,096 bytes | Interval:   66.5ms | Rate:   60.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  19 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  20 received:    950 bytes | Interval:   52.7ms | Rate:   17.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  21 received:  2,834 bytes | Interval:   15.3ms | Rate:  181.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  22 received:  4,096 bytes | Interval:   67.9ms | Rate:   58.9 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  23 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  24 received:  4,096 bytes | Interval:   65.5ms | Rate:   61.1 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  25 received:    156 bytes | Interval:    1.0ms | Rate:  152.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  26 received:  4,096 bytes | Interval:   66.7ms | Rate:   60.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:46 - Req 02: Chunk  27 received:    156 bytes | Interval:    1.0ms | Rate:  151.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  28 received:    794 bytes | Interval:   38.8ms | Rate:   20.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  29 received:  2,834 bytes | Interval:   28.1ms | Rate:   98.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  30 received:  4,096 bytes | Interval:   67.3ms | Rate:   59.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  31 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  32 received:  4,096 bytes | Interval:   66.5ms | Rate:   60.1 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  33 received:    156 bytes | Interval:    1.0ms | Rate:  152.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  34 received:  4,096 bytes | Interval:   68.5ms | Rate:   58.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  35 received:    156 bytes | Interval:    1.0ms | Rate:  152.3 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  36 received:    794 bytes | Interval:   12.7ms | Rate:   61.3 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  37 received:  2,834 bytes | Interval:   53.4ms | Rate:   51.8 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  38 received:  4,096 bytes | Interval:   68.7ms | Rate:   58.3 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  39 received:    156 bytes | Interval:    1.0ms | Rate:  151.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  40 received:  4,096 bytes | Interval:   67.3ms | Rate:   59.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  41 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  42 received:    950 bytes | Interval:   52.4ms | Rate:   17.7 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  43 received:  2,834 bytes | Interval:   17.3ms | Rate:  159.7 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  44 received:  4,096 bytes | Interval:   65.8ms | Rate:   60.8 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  45 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  46 received:  4,096 bytes | Interval:   67.3ms | Rate:   59.5 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  47 received:    156 bytes | Interval:    1.0ms | Rate:  151.9 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  48 received:  4,096 bytes | Interval:   66.0ms | Rate:   60.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  49 received:    156 bytes | Interval:    1.0ms | Rate:  152.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  50 received:    794 bytes | Interval:   39.4ms | Rate:   19.7 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  51 received:  2,834 bytes | Interval:   27.8ms | Rate:   99.5 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  52 received:  4,096 bytes | Interval:   67.7ms | Rate:   59.1 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  53 received:    156 bytes | Interval:    1.0ms | Rate:  152.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  54 received:  4,096 bytes | Interval:   68.8ms | Rate:   58.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:47 - Req 02: Chunk  55 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  56 received:  4,096 bytes | Interval:   65.4ms | Rate:   61.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  57 received:    156 bytes | Interval:    1.0ms | Rate:  151.8 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  58 received:    794 bytes | Interval:   10.6ms | Rate:   73.3 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  59 received:  2,834 bytes | Interval:   58.7ms | Rate:   47.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  60 received:  4,096 bytes | Interval:   67.0ms | Rate:   59.7 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  61 received:    156 bytes | Interval:    1.0ms | Rate:  151.5 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  62 received:  4,096 bytes | Interval:   67.6ms | Rate:   59.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  63 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  64 received:    950 bytes | Interval:   47.2ms | Rate:   19.7 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  65 received:  2,834 bytes | Interval:   21.6ms | Rate:  128.1 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  66 received:  4,096 bytes | Interval:   68.4ms | Rate:   58.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  67 received:    156 bytes | Interval:    1.0ms | Rate:  152.1 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  68 received:  4,096 bytes | Interval:   66.2ms | Rate:   60.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  69 received:    156 bytes | Interval:    1.0ms | Rate:  151.8 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  70 received:  4,096 bytes | Interval:   68.5ms | Rate:   58.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  71 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  72 received:    794 bytes | Interval:   36.8ms | Rate:   21.1 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  73 received:  2,834 bytes | Interval:   32.6ms | Rate:   85.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  74 received:  4,096 bytes | Interval:   68.3ms | Rate:   58.5 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  75 received:    156 bytes | Interval:    1.0ms | Rate:  151.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  76 received:  4,096 bytes | Interval:   67.7ms | Rate:   59.1 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  77 received:    156 bytes | Interval:    1.0ms | Rate:  152.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  78 received:  4,096 bytes | Interval:   68.2ms | Rate:   58.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  79 received:    156 bytes | Interval:    1.0ms | Rate:  152.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  80 received:    794 bytes | Interval:    1.3ms | Rate:  606.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  81 received:  2,834 bytes | Interval:   68.5ms | Rate:   40.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  82 received:  4,096 bytes | Interval:   68.2ms | Rate:   58.7 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  83 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  84 received:  4,096 bytes | Interval:   67.7ms | Rate:   59.1 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:48 - Req 02: Chunk  85 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  86 received:    950 bytes | Interval:   37.7ms | Rate:   24.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  87 received:  2,834 bytes | Interval:   32.4ms | Rate:   85.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  88 received:  4,096 bytes | Interval:   69.1ms | Rate:   57.9 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  89 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  90 received:  4,096 bytes | Interval:   68.7ms | Rate:   58.2 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  91 received:    156 bytes | Interval:    1.5ms | Rate:  101.3 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  92 received:  4,096 bytes | Interval:   68.2ms | Rate:   58.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  93 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  94 received:    794 bytes | Interval:    1.3ms | Rate:  603.8 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  95 received:  2,834 bytes | Interval:   68.2ms | Rate:   40.6 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  96 received:  4,096 bytes | Interval:  139.1ms | Rate:   28.8 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  97 received:  4,096 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  98 received:    312 bytes | Interval:    1.0ms | Rate:  303.3 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk  99 received:    950 bytes | Interval:   34.5ms | Rate:   26.9 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk 100 received:  2,834 bytes | Interval:   37.6ms | Rate:   73.5 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk 101 received:  4,096 bytes | Interval:   67.2ms | Rate:   59.5 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk 102 received:    156 bytes | Interval:    1.0ms | Rate:  152.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk 103 received:  4,096 bytes | Interval:   67.8ms | Rate:   59.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk 104 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk 105 received:  3,784 bytes | Interval:   71.3ms | Rate:   51.9 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk 106 received:  4,096 bytes | Interval:   68.4ms | Rate:   58.5 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk 107 received:    156 bytes | Interval:    0.5ms | Rate:  294.5 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:49 - Req 02: Chunk 108 received:  1,106 bytes | Interval:  172.5ms | Rate:    6.3 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:50 - Req 02: Chunk 109 received:  2,834 bytes | Interval:  126.0ms | Rate:   22.0 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:50 - Req 02: Chunk 110 received:  1,262 bytes | Interval:  166.2ms | Rate:    7.4 KB/s | FOR_TTS: <sigh> I told you not to trust the raccoon. And yet, here we are.
+2025-04-16 20:18:50 - Req 02: Finished 'sample1.wav'. Total time: 10.062s, Chunks: 110, Bytes: 233,472, Avg Rate: 54.0 KB/s
+2025-04-16 20:18:50 - Req 03: First audio byte for 'sample2.wav' (latency: 9.690s)
+2025-04-16 20:18:50 - Req 03: Chunk   1 received:  4,096 bytes | Interval: 9689.8ms | Rate:    0.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk   2 received:  2,834 bytes | Interval:   70.6ms | Rate:   39.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk   3 received:  4,096 bytes | Interval:   67.7ms | Rate:   59.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk   4 received:    156 bytes | Interval:    0.6ms | Rate:  255.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk   5 received:  2,832 bytes | Interval:   67.6ms | Rate:   40.9 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk   6 received:  2,370 bytes | Interval:   45.5ms | Rate:   50.9 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk   7 received:  2,834 bytes | Interval:   22.1ms | Rate:  125.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk   8 received:  4,096 bytes | Interval:   67.6ms | Rate:   59.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk   9 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk  10 received:  4,096 bytes | Interval:   66.6ms | Rate:   60.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk  11 received:    156 bytes | Interval:    1.1ms | Rate:  144.9 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk  12 received:  4,096 bytes | Interval:   65.9ms | Rate:   60.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk  13 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk  14 received:    794 bytes | Interval:   26.1ms | Rate:   29.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:50 - Req 03: Chunk  15 received:  2,834 bytes | Interval:   42.2ms | Rate:   65.5 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  16 received:  4,096 bytes | Interval:   68.2ms | Rate:   58.6 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  17 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  18 received:  4,096 bytes | Interval:   68.2ms | Rate:   58.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  19 received:    156 bytes | Interval:    1.0ms | Rate:  153.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  20 received:  4,096 bytes | Interval:   65.8ms | Rate:   60.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  21 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  22 received:    794 bytes | Interval:    4.1ms | Rate:  189.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  23 received:  2,834 bytes | Interval:   62.6ms | Rate:   44.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  24 received:  4,096 bytes | Interval:   68.4ms | Rate:   58.5 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  25 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  26 received:  4,096 bytes | Interval:   68.1ms | Rate:   58.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  27 received:    156 bytes | Interval:    0.5ms | Rate:  300.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  28 received:    950 bytes | Interval:   51.0ms | Rate:   18.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  29 received:  2,834 bytes | Interval:   17.0ms | Rate:  163.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  30 received:  4,096 bytes | Interval:   68.4ms | Rate:   58.5 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  31 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  32 received:  4,096 bytes | Interval:   66.9ms | Rate:   59.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  33 received:    156 bytes | Interval:    1.2ms | Rate:  128.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  34 received:  4,096 bytes | Interval:   67.8ms | Rate:   59.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  35 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  36 received:    794 bytes | Interval:   45.5ms | Rate:   17.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  37 received:  2,834 bytes | Interval:   21.9ms | Rate:  126.6 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  38 received:  4,096 bytes | Interval:   66.9ms | Rate:   59.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  39 received:    156 bytes | Interval:    1.5ms | Rate:   99.6 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  40 received:  4,096 bytes | Interval:   66.4ms | Rate:   60.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  41 received:    156 bytes | Interval:    1.0ms | Rate:  152.6 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  42 received:  4,096 bytes | Interval:   68.0ms | Rate:   58.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  43 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  44 received:    794 bytes | Interval:   47.1ms | Rate:   16.5 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:51 - Req 03: Chunk  45 received:  2,834 bytes | Interval:   20.5ms | Rate:  135.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  46 received:  4,096 bytes | Interval:   68.4ms | Rate:   58.5 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  47 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  48 received:  4,096 bytes | Interval:   70.5ms | Rate:   56.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  49 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  50 received:  4,096 bytes | Interval:   66.6ms | Rate:   60.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  51 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  52 received:    794 bytes | Interval:   25.1ms | Rate:   30.9 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  53 received:  2,834 bytes | Interval:   42.7ms | Rate:   64.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  54 received:  4,096 bytes | Interval:   67.4ms | Rate:   59.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  55 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  56 received:  4,096 bytes | Interval:   67.8ms | Rate:   59.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  57 received:    156 bytes | Interval:    1.0ms | Rate:  152.5 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  58 received:  4,096 bytes | Interval:   68.1ms | Rate:   58.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  59 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  60 received:    794 bytes | Interval:    2.0ms | Rate:  387.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  61 received:  2,834 bytes | Interval:   65.6ms | Rate:   42.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  62 received:  4,096 bytes | Interval:   68.6ms | Rate:   58.3 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  63 received:    156 bytes | Interval:    1.5ms | Rate:  101.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  64 received:  4,096 bytes | Interval:   67.4ms | Rate:   59.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  65 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  66 received:    950 bytes | Interval:   46.7ms | Rate:   19.9 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  67 received:  2,834 bytes | Interval:   21.7ms | Rate:  127.6 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  68 received:  4,096 bytes | Interval:   69.4ms | Rate:   57.6 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  69 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  70 received:  4,096 bytes | Interval:   68.6ms | Rate:   58.3 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  71 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  72 received:  4,096 bytes | Interval:   69.3ms | Rate:   57.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  73 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  74 received:    794 bytes | Interval:   42.7ms | Rate:   18.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:52 - Req 03: Chunk  75 received:  2,834 bytes | Interval:   24.9ms | Rate:  111.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  76 received:  4,096 bytes | Interval:   68.5ms | Rate:   58.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  77 received:    156 bytes | Interval:    1.0ms | Rate:  151.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  78 received:  4,096 bytes | Interval:   68.8ms | Rate:   58.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  79 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  80 received:  4,096 bytes | Interval:   68.1ms | Rate:   58.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  81 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  82 received:    794 bytes | Interval:   18.1ms | Rate:   42.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  83 received:  2,834 bytes | Interval:   51.2ms | Rate:   54.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  84 received:  4,096 bytes | Interval:   68.8ms | Rate:   58.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  85 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  86 received:  4,096 bytes | Interval:   69.6ms | Rate:   57.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  87 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  88 received:    950 bytes | Interval:   62.3ms | Rate:   14.9 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  89 received:  2,834 bytes | Interval:    5.9ms | Rate:  468.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  90 received:  4,096 bytes | Interval:   70.1ms | Rate:   57.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  91 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  92 received:  4,096 bytes | Interval:   68.8ms | Rate:   58.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  93 received:    156 bytes | Interval:    1.0ms | Rate:  150.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  94 received:  4,096 bytes | Interval:   70.4ms | Rate:   56.8 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  95 received:    156 bytes | Interval:    1.0ms | Rate:  152.5 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  96 received:    794 bytes | Interval:   38.8ms | Rate:   20.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  97 received:  2,834 bytes | Interval:   29.0ms | Rate:   95.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  98 received:  4,096 bytes | Interval:   68.9ms | Rate:   58.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk  99 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk 100 received:  4,096 bytes | Interval:   69.0ms | Rate:   58.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk 101 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk 102 received:  4,096 bytes | Interval:   69.0ms | Rate:   58.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk 103 received:    156 bytes | Interval:    1.0ms | Rate:  152.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:53 - Req 03: Chunk 104 received:    794 bytes | Interval:   13.1ms | Rate:   59.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 105 received:  2,834 bytes | Interval:   56.2ms | Rate:   49.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 106 received:  4,096 bytes | Interval:  139.5ms | Rate:   28.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 107 received:  4,096 bytes | Interval:    0.5ms | Rate: 7735.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 108 received:    312 bytes | Interval:    0.5ms | Rate:  591.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 109 received:    950 bytes | Interval:   53.2ms | Rate:   17.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 110 received:  2,834 bytes | Interval:   18.5ms | Rate:  149.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 111 received:  4,096 bytes | Interval:   67.0ms | Rate:   59.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 112 received:    156 bytes | Interval:    1.5ms | Rate:  101.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 113 received:  4,096 bytes | Interval:   68.8ms | Rate:   58.1 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 114 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 115 received:  4,096 bytes | Interval:   70.9ms | Rate:   56.4 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 116 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 117 received:    794 bytes | Interval:   41.6ms | Rate:   18.7 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 118 received:  2,834 bytes | Interval:   28.3ms | Rate:   97.9 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 119 received:  1,262 bytes | Interval:  249.0ms | Rate:    4.9 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:54 - Req 03: Chunk 120 received:  2,834 bytes | Interval:    2.5ms | Rate: 1102.2 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:55 - Req 03: Chunk 121 received:  1,262 bytes | Interval:  249.7ms | Rate:    4.9 KB/s | FOR_TTS: You’re lucky you’re cute. <chuckle> Otherwise, I'd have kicked you out already.
+2025-04-16 20:18:55 - Req 03: Finished 'sample2.wav'. Total time: 14.812s, Chunks: 121, Bytes: 253,952, Avg Rate: 53.7 KB/s
+2025-04-16 20:18:55 - Req 04: First audio byte for 'sample3.wav' (latency: 14.357s)
+2025-04-16 20:18:55 - Req 04: Chunk   1 received:  4,096 bytes | Interval: 14356.8ms | Rate:    0.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk   2 received:  2,834 bytes | Interval:   71.0ms | Rate:   39.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk   3 received:  4,096 bytes | Interval:   70.1ms | Rate:   57.1 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk   4 received:    156 bytes | Interval:    1.0ms | Rate:  152.4 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk   5 received:  2,832 bytes | Interval:   67.5ms | Rate:   41.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk   6 received:  4,096 bytes | Interval:   67.3ms | Rate:   59.4 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk   7 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk   8 received:  2,214 bytes | Interval:   13.9ms | Rate:  155.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk   9 received:  2,834 bytes | Interval:   52.7ms | Rate:   52.6 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  10 received:  4,096 bytes | Interval:   68.2ms | Rate:   58.7 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  11 received:    156 bytes | Interval:    1.0ms | Rate:  151.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  12 received:  4,096 bytes | Interval:   66.3ms | Rate:   60.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  13 received:    156 bytes | Interval:    1.0ms | Rate:  151.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  14 received:    950 bytes | Interval:   54.8ms | Rate:   16.9 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  15 received:  2,834 bytes | Interval:   12.0ms | Rate:  229.8 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  16 received:  4,096 bytes | Interval:   67.1ms | Rate:   59.6 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  17 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  18 received:  4,096 bytes | Interval:   67.5ms | Rate:   59.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  19 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  20 received:  4,096 bytes | Interval:   67.7ms | Rate:   59.1 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  21 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  22 received:    794 bytes | Interval:   41.3ms | Rate:   18.8 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  23 received:  2,834 bytes | Interval:   29.8ms | Rate:   92.8 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  24 received:  4,096 bytes | Interval:   63.5ms | Rate:   63.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:55 - Req 04: Chunk  25 received:    156 bytes | Interval:    1.0ms | Rate:  152.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  26 received:  4,096 bytes | Interval:   66.4ms | Rate:   60.2 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  27 received:    156 bytes | Interval:    1.5ms | Rate:  101.2 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  28 received:  4,096 bytes | Interval:   67.0ms | Rate:   59.7 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  29 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  30 received:    794 bytes | Interval:   13.4ms | Rate:   57.8 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  31 received:  2,834 bytes | Interval:   53.7ms | Rate:   51.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  32 received:  4,096 bytes | Interval:   66.9ms | Rate:   59.8 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  33 received:    156 bytes | Interval:    1.0ms | Rate:  152.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  34 received:  4,096 bytes | Interval:   68.2ms | Rate:   58.6 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  35 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  36 received:    950 bytes | Interval:   54.5ms | Rate:   17.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  37 received:  2,834 bytes | Interval:   24.0ms | Rate:  115.2 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  38 received:  4,096 bytes | Interval:   58.3ms | Rate:   68.6 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  39 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  40 received:  4,096 bytes | Interval:   69.0ms | Rate:   58.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  41 received:    156 bytes | Interval:    1.0ms | Rate:  152.2 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  42 received:  4,096 bytes | Interval:   64.1ms | Rate:   62.4 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  43 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  44 received:    794 bytes | Interval:   51.7ms | Rate:   15.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  45 received:  2,834 bytes | Interval:   15.4ms | Rate:  179.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  46 received:  4,096 bytes | Interval:   73.2ms | Rate:   54.6 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  47 received:    156 bytes | Interval:    1.0ms | Rate:  152.4 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  48 received:  4,096 bytes | Interval:   60.3ms | Rate:   66.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  49 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  50 received:  4,096 bytes | Interval:   68.7ms | Rate:   58.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  51 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  52 received:    794 bytes | Interval:   24.9ms | Rate:   31.2 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  53 received:  2,834 bytes | Interval:   42.1ms | Rate:   65.8 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  54 received:  4,096 bytes | Interval:   68.0ms | Rate:   58.9 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:56 - Req 04: Chunk  55 received:    156 bytes | Interval:    1.0ms | Rate:  146.2 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  56 received:  4,096 bytes | Interval:   66.9ms | Rate:   59.8 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  57 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  58 received:  3,784 bytes | Interval:   66.0ms | Rate:   56.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  59 received:  4,096 bytes | Interval:   69.7ms | Rate:   57.4 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  60 received:    156 bytes | Interval:    0.9ms | Rate:  163.7 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  61 received:  4,096 bytes | Interval:   67.7ms | Rate:   59.1 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  62 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  63 received:  4,096 bytes | Interval:   68.6ms | Rate:   58.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  64 received:    156 bytes | Interval:    1.1ms | Rate:  142.8 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  65 received:    794 bytes | Interval:   37.9ms | Rate:   20.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  66 received:  2,834 bytes | Interval:   29.1ms | Rate:   95.2 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  67 received:  4,096 bytes | Interval:   68.3ms | Rate:   58.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  68 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  69 received:  4,096 bytes | Interval:   74.2ms | Rate:   53.9 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  70 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  71 received:  4,096 bytes | Interval:   63.5ms | Rate:   63.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  72 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  73 received:    794 bytes | Interval:    8.6ms | Rate:   90.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  74 received:  2,834 bytes | Interval:   60.9ms | Rate:   45.4 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  75 received:  4,096 bytes | Interval:   72.1ms | Rate:   55.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  76 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  77 received:  4,096 bytes | Interval:   66.1ms | Rate:   60.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  78 received:    156 bytes | Interval:    1.0ms | Rate:  152.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  79 received:    950 bytes | Interval:   42.8ms | Rate:   21.7 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  80 received:  2,834 bytes | Interval:   24.5ms | Rate:  112.9 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  81 received:  4,096 bytes | Interval:   70.1ms | Rate:   57.1 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  82 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  83 received:  4,096 bytes | Interval:   68.3ms | Rate:   58.6 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:57 - Req 04: Chunk  84 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  85 received:  4,096 bytes | Interval:   68.8ms | Rate:   58.1 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  86 received:    156 bytes | Interval:    1.0ms | Rate:  152.2 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  87 received:    794 bytes | Interval:   11.7ms | Rate:   66.1 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  88 received:  2,834 bytes | Interval:   54.8ms | Rate:   50.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  89 received:  4,096 bytes | Interval:   69.8ms | Rate:   57.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  90 received:    156 bytes | Interval:    1.0ms | Rate:  152.5 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  91 received:  4,096 bytes | Interval:   70.0ms | Rate:   57.1 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  92 received:    156 bytes | Interval:    1.0ms | Rate:  151.7 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  93 received:    950 bytes | Interval:   46.4ms | Rate:   20.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  94 received:  2,834 bytes | Interval:   22.2ms | Rate:  124.7 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  95 received:  4,096 bytes | Interval:   69.0ms | Rate:   57.9 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  96 received:    156 bytes | Interval:    1.0ms | Rate:  152.2 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  97 received:  4,096 bytes | Interval:   68.6ms | Rate:   58.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  98 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk  99 received:  4,096 bytes | Interval:   70.0ms | Rate:   57.1 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk 100 received:    156 bytes | Interval:    0.0ms | Rate:    0.0 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk 101 received:    794 bytes | Interval:   34.8ms | Rate:   22.3 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:58 - Req 04: Chunk 102 received:  4,096 bytes | Interval:  256.5ms | Rate:   15.6 KB/s | FOR_TTS: <laugh> Seriously? You tripped over your own tail again?
+2025-04-16 20:18:59 - Req 04: Finished 'sample3.wav'. Total time: 18.878s, Chunks: 102, Bytes: 217,088, Avg Rate: 52.7 KB/s
+2025-04-16 20:18:59 - Batch processing completed in 18.88 seconds.
