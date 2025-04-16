@@ -110,20 +110,13 @@ async def create_speech_api(request: SpeechRequest):
         # Generate unique filename (in case we need to save later)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         
-        # Check if we should use batched generation
-        use_batching = len(request.input) > 1000
-        if use_batching:
-            print(f"Using batched generation for long text ({len(request.input)} characters)")
-        
         # Generate speech with automatic batching for long texts
         start = time.time()
         
-        # Get the token generator
+        # Get the token generator - only pass the required parameters
         token_gen = generate_tokens_from_api(
             prompt=request.input,
-            voice=request.voice,
-            use_batching=use_batching,
-            max_batch_chars=1000
+            voice=request.voice
         )
         
         # Convert tokens to audio chunks and stream them
